@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'voetbalspelers',
 ]
 
 MIDDLEWARE = [
@@ -103,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
-
+# hieronder bepaalt u de taal van uw applicatie.
 LANGUAGE_CODE = 'nl-nl'
 
 TIME_ZONE = 'UTC'
