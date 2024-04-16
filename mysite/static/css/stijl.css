@@ -43,4 +43,14 @@ footer {
     font-size:  40px;
 }
 
-.H2 {color: orange}
+h2 a {
+    color: orange
+}
+
+h2 a:visited { 
+    color: orange
+}
+
+h2 a:hover, h2 a:active {
+    color:black
+}
